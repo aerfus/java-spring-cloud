@@ -74,13 +74,14 @@
 
     <version.io.opentracing>0.33.0</version.io.opentracing>
     <version.io.opentracing.contrib-opentracing-spring-tracer-configuration-starter>0.3.1</version.io.opentracing.contrib-opentracing-spring-tracer-configuration-starter>
-    <version.io.opentracing.contrib-opentracing-spring-web>2.1.1</version.io.opentracing.contrib-opentracing-spring-web>
+    <version.io.opentracing.contrib-opentracing-spring-web>3.0.1</version.io.opentracing.contrib-opentracing-spring-web>
     <version.io.opentracing.contrib-opentracing-spring-jms>0.1.7</version.io.opentracing.contrib-opentracing-spring-jms>
     <version.io.opentracing.contrib-opentracing-spring-messaging>0.1.2</version.io.opentracing.contrib-opentracing-spring-messaging>
     <version.io.opentracing.contrib-opentracing-spring-rabbitmq>2.0.5</version.io.opentracing.contrib-opentracing-spring-rabbitmq>
-    <version.io.opentracing.contrib-java-jdbc>0.1.1</version.io.opentracing.contrib-java-jdbc>
+    <version.io.opentracing.contrib-java-jdbc>0.2.8</version.io.opentracing.contrib-java-jdbc>
     <version.io.opentracing.contrib-opentracing-spring-redis>0.1.8</version.io.opentracing.contrib-opentracing-spring-redis>
     <version.io.opentracing.contrib-java-concurrent>0.3.0</version.io.opentracing.contrib-java-concurrent>
+	<version.io.opentracing.contrib-java-common>0.1.4</version.io.opentracing.contrib-java-common>
     <version.io.opentracing.contrib-opentracing-reactor>0.1.0</version.io.opentracing.contrib-opentracing-reactor>
     <version.io.opentracing.contrib-opentracing-rxjava-1>0.1.0</version.io.opentracing.contrib-opentracing-rxjava-1>
     <version.io.opentracing.contrib-opentracing-spring-mongo>0.1.5</version.io.opentracing.contrib-opentracing-spring-mongo>
@@ -236,6 +237,12 @@
         <groupId>io.opentracing.contrib</groupId>
         <artifactId>opentracing-concurrent</artifactId>
         <version>${version.io.opentracing.contrib-java-concurrent}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.opentracing.contrib</groupId>
+        <artifactId>common</artifactId>
+        <version>${version.io.opentracing.contrib-java-common}</version>
       </dependency>
 
       <dependency>
